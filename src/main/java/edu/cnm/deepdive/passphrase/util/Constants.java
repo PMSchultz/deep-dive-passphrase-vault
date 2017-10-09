@@ -8,6 +8,10 @@ package edu.cnm.deepdive.passphrase.util;
 
 public class Constants {
 
+  //Resource bundle name
+  public static final String USAGE_BUNDLE = "usage-strings";
+  public static final String WORDS_BUNDLE = "diceware-words";
+
 
   // Definitions of the Exclusion string variables
   public static final String EXCLUDES_REPEAT = "excludesRepeat";
@@ -47,6 +51,5 @@ public class Constants {
   public static final String SPECIFY_DELEMITER_ARGS = "specifyDelimiterArgs";
 
 
-
-
+  public static final String NO_REPEAT_OPTION = "no-repeat";
 }
